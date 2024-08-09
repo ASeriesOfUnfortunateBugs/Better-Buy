@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Better Buy | Create an account</title>
+      <meta name="keywords" content="Better Buy, electronics, retail, pc, game consoles, home theater">
+      <meta name="description" content="Better Buy is your one stop shop for all your electronics needs.">
+      <meta name="author" content="Rachel Heaton">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout inner_posituong computer_page">
+      
+      <!-- header -->
+      <header class="fixed-top">
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">                        
+                        <div class="logo">
+                           <a href="index.html"><img src="images/logo.svg" alt="Better Buy Logo" width="150px" height="150px"  /></a>
+                        </div>                        
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div>
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item">
+                                 <a class="nav-link" href="index.html">Home</a>
+                              </li>                              
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="account.html">Account</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="products.html">Products</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="sales.html">Sales</a>
+                              </li>                              
+                              <li class="nav-item">
+                                 <a class="nav-link" href="customerservice.html">Customer Service</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="faq.html">FAQ</a>
+                              </li>
+                              <li class="nav-item ">
+                                 <a class="nav-link" href="login.html">Login</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- about section -->
+      <div class="account">        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                    <h2>Create an account</h2>
+                    </div>
+                </div>
+            </div>        
+        </div>
+
+        <!-- descriptive text -->
+        <div class="container">
+         <p class="text-center">Fill in the form below to get started buying better with your own Better Buy account.</p><br />
+         </div>
+
+         <!-- create account form -->
+         <div class="container border">
+            <form action="/WebSysProject/CreateAccountServlet" method="post" id="createAcct">
+               <fieldset>
+                  <legend>Personal Information</legend>
+                  <div class="form-group">
+                     <label for="fname">First name:</label>
+                     <input class="form-control" type="text" form="createAcct" name="fname" id="fname" /><br />
+                  </div>
+                  <div class="form-group">
+                     <label for="lname">Last name:</label>
+                     <input class="form-control" type="text" form="createAcct" name="lname" id="lname" /><br />
+                  </div>
+                  <div class="form-group">
+                     <label for="email">Email:</label>
+                     <input class="form-control" type="text" form="createAcct" name="email" id="email" /><br />
+                  </div>
+                  <div class="form-group">
+                     <label for="phone">Phone:</label>
+                     <input class="form-control" type="text" form="createAcct" name="phone" id="phone" /><br />
+                  </div>
+
+                  <div class="form-group">
+                     <label for="street">Street:</label>
+                     <input class="form-control" type="text" form="createAcct" name="street" id="street" /><br />
+                  </div>
+
+                  <div class="form-group">
+                     <label for="city">City:</label>
+                     <input class="form-control" type="text" form="createAcct" name="city" id="city" /><br />
+                  </div>
+
+                  <div class="form-group">
+                     <label for="state">State:</label>
+                     <input class="form-control" type="text" form="createAcct" name="state" id="state" /><br />
+                  </div>
+                  
+                  <div class="form-group">
+                     <label for="aptno">Apt No.:</label>
+                     <input class="form-control" type="text" form="createAcct" name="aptno" id="aptno" /><br />
+                  </div>
+
+                  <div class="form-group">
+                     <label for="zipcode">Zip code:</label>
+                     <input class="form-control" type="text" form="createAcct" name="zip" id="zipcode" /><br />
+                  </div>
+               </fieldset>
+
+               <fieldset>
+                  <legend>Choose a username and password.</legend>
+                  <div class="form-group">
+                     <label for="uname">Username:</label>
+                     <input class="form-control" type="text" form="createAcct" name="uname" id="uname" /><br />
+                  </div>
+                  <div class="form-group">
+                     <label for="pass">Password:</label>
+                     <input class="form-control" type="password" form="createAcct" name="pass" id="pass" /><br />
+                  </div>
+                  <div class="form-group">
+                     <label for="confirmpass">Confirm password:</label>
+                     <input class="form-control" type="password" form="createAcct" name="pass2" id="confirmpass" /><br />
+                  </div>
+               </fieldset>
+                  <input class="btn btn-default btn-block" type="submit" form="createAcct" value="Create Account" />
+            </form><br />
+         </div><br />
+
+         <div class="container">
+            <p class="text-center">Already have an account? <a href="login.html" title="Customer login">Click here</a> to sign in!</p>
+         </div>
+      </div>
+
+      <!-- end about section -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               
+                  <div class="">
+                     <img class="logo1" src="images/logo.svg" alt="Better Buy Logo" height="150px" width="150px" />
+                     <ul class="social_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+                  
+               
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2022 All Rights Reserved. Designed by Chattahoochee Technical College</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
+

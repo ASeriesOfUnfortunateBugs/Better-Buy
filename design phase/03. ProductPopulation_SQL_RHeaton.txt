@@ -1,0 +1,8 @@
+INSERT INTO Products
+VALUES ("TV785426", "Toshiba 32 inch HD Smart TV", "Toshiba Class V35 Series HD Smart TV with Fire TV. Feel as if you are part of the action with beautiful HD resolution and immersive audio technology. Includes Fire TV so you never miss the media that matters to you. Alexa Voice Remote included to provide seamless integration of apps and channels.", 5, 139.99, "imgs/products/tv_toshiba_32in.jpg");
+
+INSERT INTO Products (ProductNo, ProductName, ProductDesc, Quantity, Price, ProductImg)
+VALUES ("TV548645", "Samsung 40 inch HD Smart TV", "Samsung Class 5 Series HD Smart TV delivers an immersive viewing experience with crystal clear Full HD technology. The Digital Clean View feature ensures the best results for any content. Additionally, this model has built-in parental control options to safeguard your childrens browsing experience. Includes support for Samsung SmartThings app.", 3, 234.99, "imgs/products/tv_samsung_40in.jpg");
+
+INSERT INTO Products (ProductNo, ProductName, ProductDesc, Quantity, Price, ProductImg)
+VALUES ("TV154687", "Sony 50 inch 4K UHD Smart TV", "Sony Class Bravia XR X90J Series Smart TV is a top-of-the-line immersive experience, using a combination of cutting edge technologies such as Full Array LED and XR Constrast Booster to deliver the best viewing experience around. Google TV capable.", 6, 889.99, "imgs/products/tv_sony_50in.jpg");

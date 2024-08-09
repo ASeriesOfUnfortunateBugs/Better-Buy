@@ -1,0 +1,21 @@
+CREATE TABLE Orders 
+(
+OrderNo VARCHAR(8),
+CustID VARCHAR(8),
+ProductNo VARCHAR(8),
+Quantity INT,
+PRIMARY KEY(OrderNo),
+FOREIGN KEY(CustID) REFERENCES Customers(CustID),
+FOREIGN KEY(ProductNo) REFERENCES Products(ProductNo)
+);
+
+CREATE TABLE Products 
+(
+ProductNo VARCHAR(8),
+ProductName VARCHAR(50),
+ProductDesc LONGTEXT,
+Quantity INT,
+Price DOUBLE,
+ProductImg TEXT,
+PRIMARY KEY(ProductNo)
+);
